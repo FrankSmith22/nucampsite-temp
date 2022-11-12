@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+        <h3>In order to set up a bootstrap project:</h3>
+        <ol>
+            <p class="text-danger">This is assuming you have node/NPM installed</p>
+            <li>Create a folder somewhere and open it in VSCode</li>
+            <li>Create an "index.html"</li>
+            <li>Open a terminal and run "npm init"</li>
+            <li>accept all defaults except for "main", where you should type "index.html"</li>
+            <em>npm and node have now been configured for your project</em>
+            <li>run "npm install lite-server --save-dev" to install a server for hot-reloading your code during dev
+            </li>
+            <li>Add these two lines to the scripts object in package.json:</li>
+            <code>"start": "npm run lite",<br /></code>
+            <code>"lite": "lite-server",</code><br />
+            <em>lite-server has now been configured for your project</em>
+            <li>run "npm install bootstrap@4.5.2" and "npm install jquery@3.5.1 popper.js@1.16.1" to install bootstrap and
+                jquery</li>
+            <li>Every page must have a head that references the proper scripts,<br>
+                as well as the js files before the closing body tag,<br>
+                just like in your nucampsite html files
+            </li>
+        </ol>
+        <em>Your project is now fully ready to utilize bootstrap</em>
+    </body>
+
+</html>
